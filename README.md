@@ -3,13 +3,13 @@ Gpu based kaleidoscope. Openframeworks addon.
 
 ## Basic usage
 
-###ofApp members
+### ofApp members
 ```cpp
 ofxKaleidoscope kal;
 ofImage image;
 ```
 
-###Setup
+### Setup
 ```cpp
 ofDisableArbTex();
 kal.allocate(ofGetWidth(), ofGetHeight());
@@ -17,7 +17,7 @@ image.load("yourImageFile.jpg");
 image.getTexture().setTextureWrap(GL_REPEAT, GL_REPEAT);
 ```
 
-###Update
+### Update
 ```cpp
 float div = 8;
 float rotate = 0;
@@ -56,7 +56,7 @@ kal.update(
 );
 ```
 
-###Draw
+### Draw
 ```cpp
 kal.draw(0,0);
 ```
