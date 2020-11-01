@@ -1,0 +1,2 @@
+# ofxKaleidoscope
+Gpu based kaleidoscope
