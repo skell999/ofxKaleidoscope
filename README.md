@@ -1,6 +1,8 @@
 # ofxKaleidoscope
 Gpu based kaleidoscope. Openframeworks addon.
 
+<img src="https://github.com/skell999/ofxKaleidoscope/blob/main/gif/kal.gif" width="512" height="384" />
+
 ## Basic usage
 
 ### ofApp members
